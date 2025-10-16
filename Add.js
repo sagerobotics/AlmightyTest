@@ -24,12 +24,12 @@ const db = getFirestore(app);
 
 async function addMembers() {
   try {
-    const docRef = await addDoc(collection(db, "Members"), {
-      name: "Stepahanie's Museum",
-      category: "Historical",
-      location: "Southaven, MS",
-      rating: 4.8,
-      Like: "No",
+    const docRef = await addDoc(collection(db, "People"), {
+      name: "Betties Museum",
+      category: "Modern Art",
+      location: "Biloxi MS",
+      rating: 2.2,
+      Like: "Yes",
       description: "A small-town museum highlighting local heritage.",
       createdAt: new Date(),
       updatedAt: new Date(),
