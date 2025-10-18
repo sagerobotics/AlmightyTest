@@ -25,12 +25,12 @@ const db = getFirestore(app);
 async function addMembers() {
   try {
     const docRef = await addDoc(collection(db, "People"), {
-      name: "Betties Museum",
+      name: "McClarty Girls Museum",
       category: "Modern Art",
-      location: "Biloxi MS",
+      location: "Madison MS",
       rating: 2.2,
-      Like: "Yes",
-      description: "A small-town museum highlighting local heritage.",
+      Like: "No",
+      description: "A small-town museum highlighting local heritage and dance.",
       createdAt: new Date(),
       updatedAt: new Date(),
     });
