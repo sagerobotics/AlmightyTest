@@ -15,7 +15,7 @@ const firebaseConfig = {
     measurementId: "G-V0E4WCMN9Q"
   };
 
-// --- Initialize ---
+// --- Initialize & To Test ---
 const app = initializeApp(firebaseConfig);
 console.log("🔍 Connected to Firestore project:", firebaseConfig.projectId);
 
